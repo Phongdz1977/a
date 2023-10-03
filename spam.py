@@ -118,7 +118,7 @@ for pair in cookie_pairs:
 print(
     "\033[1;97m- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
 )
-comment_text = ["#HMQ", "#MQ_Dz_VKL#Love"]
+comment_text = ["#HMQaa", "#HHMQ_Dz_VKL#Love"]
 with open(f"emoji.json", "r", encoding="utf-8") as json_file:
     data = json.load(json_file)
 threads = []
