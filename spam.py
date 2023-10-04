@@ -17,9 +17,9 @@ cookies = input("\033[1;97mVui lòng nhập cookies Facebook: ")
 def banner():
     banner = f"""
 \033[1;97m~ \033[1;92mTool : \033[1;97mSpam CMT Đa Luồng
-\033[1;97m~ \033[1;92mAuthor : \033[1;97mThiệu Trung Kiên
+\033[1;97m~ \033[1;92mAuthor : \033[1;97mHồ Minh Quân
 \033[1;97m~ \033[1;92mFacebook : \033[1;97mhttps://facebook.com/ThieuTrungKi3n/
-\033[1;97m~ \033[1;92mGithub : \033[1;97mhttps://github.com/ttkienn
+\033[1;97m~ \033[1;92mGithub : \033[1;97mhttps://github.com/Phongdz1977
 \033[1;97m- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"""
     for X in banner:
         sys.stdout.write(X)
@@ -102,7 +102,7 @@ def comment_on_post(cookies, reply_id, post_id, c_user, comment):
         with count_lock:
             current_count = count
             print(
-                f"{Fore.GREEN}[ TTK ]{Style.RESET_ALL}: {current_count} | {result['data']} | {comment}"
+                f"{Fore.GREEN}[ HMQ ]{Style.RESET_ALL}: {current_count} | {result['data']} | {comment}"
             )
 
 num_threads = int(input("\033[1;97mNhập số luồng muốn chạy: "))
@@ -118,7 +118,7 @@ for pair in cookie_pairs:
 print(
     "\033[1;97m- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n"
 )
-comment_text = ["#HMQaa", "#HHMQ_Dz_VKL#Love"]
+comment_text = ["#HMQuann", "#HHMQuann_Dz_VKL"]
 with open(f"emoji.json", "r", encoding="utf-8") as json_file:
     data = json.load(json_file)
 threads = []
